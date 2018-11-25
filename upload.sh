@@ -1,0 +1,1 @@
+python /home/pi/Documents/python_projects/upload_video.py --file="/home/pi/Documents/python_projects/hummingbird.mp4" --title="Hummingbird Video $(date +'%B %e, %Y')" --description="A video of the activity around my hummingbird feeder from $(date +'%B %e, %Y')" --keywords="hummingbird,feeder" --privacyStatus="public" --category="15" --noauth_local_webserver
