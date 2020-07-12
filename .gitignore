@@ -1,0 +1,8 @@
+# jpg files
+*.jpg
+
+# secrets file
+client_secret.json
+
+# temperature directory
+temperature

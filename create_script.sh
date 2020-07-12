@@ -1,0 +1,1 @@
+(echo '#!/bin/sh'; echo -n "MP4Box";array=($(ls /home/pi/Documents/python_projects/*.jpg)); for index in ${!array[@]}; do if [ "$index" -eq 0 ]; then echo -n " -add ${array[index]}"; else echo -n " -cat ${array[index]}"; fi; done; echo -n " /home/pi/Documents/python_projects/hummingbird.mp4") > /home/pi/Documents/python_projects/create_mp4.sh
